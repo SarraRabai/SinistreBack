@@ -1,0 +1,54 @@
+{
+  "name": "backend_constat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --env-file=.env index.js",
+    "dev": "nodemon --env-file=.env index.js"
+  },
+  "type": "commonjs",
+  "engines": {
+    "node": "12.6.x"
+  },
+  "keywords": [],
+  "author": "Sarra Rabai",
+  "license": "ISC",
+  "dependencies": {
+    "@tensorflow-models/mobilenet": "^2.1.1",
+    "@tensorflow/tfjs-node": "^4.22.0",
+    "axios": "^1.9.0",
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^3.0.2",
+    "body-parser": "^1.19.0",
+    "child_process": "^1.0.2",
+    "cloudinary": "^2.6.0",
+    "compression": "^1.7.4",
+    "config": "^3.3.1",
+    "cookie-parser": "^1.4.7",
+    "expo-server-sdk": "^3.15.0",
+    "express": "^4.21.0",
+    "form-data": "^4.0.2",
+    "fs-extra": "^11.3.0",
+    "gridfs-stream": "^1.1.1",
+    "helmet": "^3.22.0",
+    "image-hash": "^5.3.2",
+    "imghash": "^0.0.9",
+    "jimp": "^1.6.0",
+    "joi": "^14.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^8.12.1",
+    "multer": "^1.4.4",
+    "multer-gridfs-storage": "^5.0.2",
+    "nodemailer": "^7.0.3",
+    "pixelmatch": "^7.1.0",
+    "pngjs": "^7.0.0",
+    "sharp": "^0.25.4",
+    "socket.io": "^4.8.1",
+    "util": "^0.12.5"
+  },
+  "devDependencies": {
+    "@types/sharp": "^0.31.1",
+    "nodemon": "^2.0.2"
+  }
+}
